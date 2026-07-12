@@ -190,7 +190,7 @@ Override openai api request base url.
 
 ### `OPENAI_ORG_ID` (optional)
 
-Specify OpenAI organization ID.
+Specify OpenAI organization ID. 
 
 ### `AZURE_URL` (optional)
 
