@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": claudeApiKey || "",
+        "x-api-key": claudeApiKey,
         "anthropic-version": Anthropic.Vision,
       },
       body: JSON.stringify({
